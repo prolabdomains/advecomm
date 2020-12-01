@@ -30,6 +30,13 @@ class AdminsTableSeeder extends Seeder
         'type' => 'admin',
         'mobile' => '027123456789',
         'image' => 'default.png',
+        'status' => 1],
+        ['name' => 'Frank Me',
+        'email' => 'subadmin1@localhost.test',
+        'password' => Hash::make('123456'),
+        'type' => 'subadmin',
+        'mobile' => '0574584758',
+        'image' => 'default.png',
         'status' => 1]);
 
         foreach($adminData as $key => $value)
