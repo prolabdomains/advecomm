@@ -1,7 +1,11 @@
 @extends('admin.layouts.master')
 
 @section('page_title')
-    Dashboard
+Settings
+@endsection
+
+@section('breadcrumb')
+Admin Settings
 @endsection
 
 @section('content')
