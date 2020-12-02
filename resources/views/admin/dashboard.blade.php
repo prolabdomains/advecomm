@@ -5,7 +5,8 @@
 @endsection
 
 @section('content')
-
+<!-- small box -->
+@include('admin.layouts.small-boxes')
 @endsection
 
 @section('extra_script')

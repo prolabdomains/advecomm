@@ -70,8 +70,6 @@
     <!-- Main content -->
     <section class="content">
       <div class="container-fluid">
-        <!-- small box -->
-        @include('admin.layouts.small-boxes')
         <!-- Main row -->
         <div class="row">
             @yield('content')
