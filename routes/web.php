@@ -23,6 +23,7 @@ Route::group(['prefix' => 'admin', 'namespace' => 'Admin'], function(){
     Route::group(['middleware' => ['checkAdmin']], function (){
         Route::get('dashboard', 'AdminController@dashboard')->name('admin.dashboard');
         Route::get('settings', 'AdminController@settings')->name('admin.settings');
+        Route::post('chkCurrentPassword', 'AdminController@chkCurrentPassword');
         Route::get('logout', 'AuthController@logout')->name('admin.logout');
     });
 
